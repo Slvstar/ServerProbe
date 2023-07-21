@@ -1,0 +1,28 @@
+{
+    "name": "temant/serverprobe",
+    "description": "ServerProbe is a PHP library for fetching hardware information from Windows-based servers using WMIC commands.",
+    "type": "library",
+    "keywords": [
+        "php",
+        "server",
+        "windows",
+        "hardware",
+        "information",
+        "WMIC"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emad Almahdi",
+            "email": "emad.storm@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Temant\\ServerProbe\\": "src/"
+        }
+    }
+}
