@@ -22,6 +22,7 @@ class ServerProbe
     private GraphicsProcessingUnits $graphicsProcessingUnitCards;
 
     private CentralProcessingUnit $centralProcessingUnit;
+    
     private CentralProcessingUnitCores $centralProcessingUnitCores;
 
     public function __construct()

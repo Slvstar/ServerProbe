@@ -1,10 +1,8 @@
 <?php
 use Temant\ServerProbe\ServerProbe;
 
-include_once __DIR__ . '/vendor/autoload.php';
-
-$server = new ServerProbe;
+include_once __DIR__ . "/vendor/autoload.php";
 
 echo '<pre>';
-print_r($server->getRandomAccessMemoryUsage()->listProcesses());
+print_r(new ServerProbe);
 echo '</pre>';
